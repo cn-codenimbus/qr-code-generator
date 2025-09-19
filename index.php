@@ -220,7 +220,10 @@ if ($isPost) {
     </form>
 
     <footer>
-      Hinweis: Für echtes PDF-Vektor-Output nutze ggf. einen SVG→PDF-Export in Inkscape/Illustrator (bleibt Vektor). EPS ist bereits für Druck geeignet.
+      <p>Hinweis: Für echtes PDF-Vektor-Output nutze ggf. einen SVG→PDF-Export in Inkscape/Illustrator (bleibt Vektor). EPS ist bereits für Druck geeignet.</p>
+      <p>Erstellt von <a href="https://codenimbus.de" target="_blank" style="color: #5b8cff;">CodeNimbus</a> | 
+         <a href="https://github.com/codenimbus/qr-code-generator" target="_blank" style="color: #5b8cff;">GitHub</a> | 
+         Open Source (MIT)</p>
     </footer>
   </div>
 </body>

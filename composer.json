@@ -1,10 +1,26 @@
 {
+    "name": "codenimbus/qr-code-generator",
+    "description": "Minimalistischer QR-Code-Generator mit Vektor-Output (SVG/EPS)",
+    "type": "project",
+    "keywords": ["qr-code", "generator", "svg", "eps", "vector", "php"],
+    "homepage": "https://qr-code-gen.codenimbus.de",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CodeNimbus",
+            "homepage": "https://codenimbus.de"
+        }
+    ],
     "require": {
+        "php": ">=8.0",
         "endroid/qr-code": "^4.8"
     },
     "config": {
         "allow-plugins": {
             "kylekatarnls/update-helper": true
         }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000"
     }
 } 
